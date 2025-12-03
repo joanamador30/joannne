@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>URS College of Education</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <div class="button-row">
+        <button class="btn" onclick="openModal('about')">ABOUT</button>
+        <button class="btn" onclick="openModal('programs')">PROGRAMS</button>
+        <button class="btn" onclick="openModal('faculty')">FACULTY</button>
+        <button class="btn" onclick="openModal('contact')">CONTACT</button>
+        <button class="btn" onclick="openModal('search')">🔍</button>
+    </div>
+</div>
+
+<!-- ABOUT MODAL -->
+<div id="about" class="modal">
+    <div class="modal-content">
+        <button class="close-btn" onclick="closeModal('about')">X</button>
+        <h2>About</h2>
+        <p>
+            The College of Education in Morong is part of the University of Rizal System (URS),
+            offering BEEd, BSEd, BTLED, and BTVTED programs, along with graduate studies.
+            Known for excellent accreditation performance and strong academic programs.
+        </p>
+
+        <h2>VISION</h2>
+        <p>The leading University in human resource development, knowledge and technology generation and environmental stewardship.</p>
+
+        <h2>MISSION</h2>
+        <p>The University of Rizal System is committed to nurture and produce upright and competent graduates through relevant and sustainable instruction, research, extension and production services.</p>
+
+        <h2>CORE VALUES</h2>
+        <p>R - Responsiveness</p>
+        <p>I - Integrity</p>
+        <p>S - Service</p>
+        <p>E - Excellence</p>
+        <p>S - Social Responsibility</p>
+    </div>
+</div>
+
+<!-- PROGRAMS MODAL -->
+<div id="programs" class="modal">
+    <div class="modal-content">
+        <button class="close-btn" onclick="closeModal('programs')">X</button>
+        <h2>Programs</h2>
+
+        <h3>BSED Majors:</h3>
+        <ul>
+            <li>English</li>
+            <li>Math</li>
+            <li>Science</li>
+        </ul>
+
+        <h3>BTLED Majors:</h3>
+        <ul>
+            <li>Home Economics</li>
+            <li>Information and Communication Technology</li>
+            <li>Industrial Arts</li>
+        </ul>
+
+        <h3>BTVTED Major:</h3>
+        <ul>
+            <li>Drafting Technology</li>
+        </ul>
+    </div>
+</div>
+
+<!-- FACULTY MODAL -->
+<div id="faculty" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal('faculty')">X</button>
+    <h2>Faculty</h2>
+
+    <div class="faculty-grid">
+
+      <div class="faculty-card">
+        <img src="jen.jpg" alt="">
+        <p><strong>Dean</strong><br>Jenisus O. Dejarlo</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="mark2.0.jpg" alt="">
+        <p><strong>Program Head - BTLED</strong><br>Mark Lee Cheungkock</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="conception.jpg" alt="">
+        <p><strong>Program Head - BEED</strong><br>Conception C. Peñaranda</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="evelyn1.jpg" alt="">
+        <p><strong>Program Head - BSED</strong><br>Evelyn P. Magdalena</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="jef.jpg" alt="">
+        <p><strong>Program Head - BTVTED</strong><br>Jefone B. Sanico</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="rommel.jpg" alt="">
+        <p><strong>Sir</strong><br>Rommel R. Castro</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="helen.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Helen R. Blanquisco</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="cecilia.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Cecilia Anievas</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="gina.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Gina I. Griba</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="aldrin.jpg" alt="">
+        <p><strong>Sir</strong><br>Aldrin Austero</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="pau.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Paula Cristin Jade C. Peñaranda </p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="ange.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Angelica Hernandez</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="karen.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Karen Carbungco</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="erika.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Ericka Aimee Cequena</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="katrina.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Katrina P. Feliciano</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="analyn.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Analyn Tanawan</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="lord.jpg" alt="">
+        <p><strong>Sir</strong><br>Lhord Justin Villacer</p>
+      </div>
+
+      <div class="faculty-card">
+        <img src="eart.jpg" alt="">
+        <p><strong>Ma’am</strong><br>Earth D.P Padilla</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT MODAL -->
+<div id="contact" class="modal">
+    <div class="modal-content">
+        <button class="close-btn" onclick="closeModal('contact')">X</button>
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> (02) 8539-9950 to 56, ext. 104</p>
+        <p><strong>Email:</strong> coedeanm@urs.edu.ph</p>
+    </div>
+</div>
+
+<!-- SEARCH MODAL -->
+<div id="search" class="modal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal('search')">X</button>
+    <h2>Search</h2>
+    <form onsubmit="performSearch(event)">
+      <input type="text" id="searchQuery" placeholder="Type your query..." required>
+      <br><br>
+      <button type="submit" class="search-btn">Search</button>
+    </form>
+  </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
